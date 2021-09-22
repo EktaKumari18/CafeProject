@@ -1,0 +1,30 @@
+<><html>
+<head>
+<title>Change Password</title>
+<link rel="stylesheet" href="css/forget.css" type="text/css">
+<script src="js/forget.js"></script> 
+</head>
+<body>
+	<div class="main">
+		<div class="forget">
+		<form id="forget"  method="post"  action="login.html" onsubmit="myFun()" >
+		<label id="r1">New Password :</label>
+		<br>
+		<input type="password" class="name"  id="pass1" placeholder="Enter your new password" onkeyup="passCheck(this.value)">
+		<br>
+		<label id="l1">#Atleast One Lowercase Character</label><br>
+		<label id="l2" >#Atleast One Uppercase Charcter</label><br>
+		<label id="l3">#Atleast One Digit</label><br>
+		<label id="l4">#One Special Character</label><br>
+		<label id="l5">#Eight Character</label><br><br>
+		<label>Confirm Password:</label>
+		<br>
+		<input type="password" class="name"  id="pass2" placeholder="Re-enter Password">
+		<br><br>
+		<input type="submit" value="Change Password" id="submit" >
+		<br>
+		</form>
+		</div>
+	</div>
+</body>
+</html>

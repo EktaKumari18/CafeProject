@@ -1,0 +1,21 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://4.imimg.com/data4/CU/SY/GLADMIN-12214857/north-indian-food-500x500.jpg');
+	background-size:cover;
+	height:100vh;
+	background-repeat:no-repeat;
+}
+.north-main{
+	width:80%;
+	margin-top:30px;
+	margin-left:150px;
+}
+input#search{
+	width:800px;
+	border:1px solid #ddd;
+	border-radius:10px;
+	outline:0;
+	padding:12px;
+	background-color:#fff;
+	box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}

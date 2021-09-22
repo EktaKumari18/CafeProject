@@ -1,0 +1,102 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	font-size:20px;
+	overflow-x:hidden;
+	color:white;
+	font-family: 'Flamenco', cursive;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://www.perfectbrew.com/wp-content/uploads/2021/07/what-is-the-difference-between-cold-brew-and-iced-coffee-XS-1200x720.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+.clearfix:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0px;
+	clear:both;
+}
+.row{
+	max-width:1180px;
+	margin:0 auto;
+}
+.logo{
+	height:120px;
+	width:auto;
+	float:left;
+	margin-top:20px;
+}
+.main-nav{
+	float:right;
+	margin-top:60px;
+}
+.main-nav li{
+	display:inline-block;
+	list-style:none;
+	margin-left:40px;
+}
+.main-nav li a{
+	padding:5px 0;
+	color:#fff;
+	text-decoration:none;
+	font-size:90%;
+	font-weight:100;
+}
+.main-nav li a:hover{
+	border-bottom:2px solid pink;
+}
+.main-content{
+	width:1180px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+h1{
+	color:#fff;
+	font-size:240%;
+	letter-spacing:3px;
+	word-spacing:5px;
+	margin-bottom:20px;
+	font-weight:lighter;
+}
+.btn{
+	margin:10px 20px;
+	font-weight:lighter;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius:200px;
+	transition:background-color 0.2s,border 0.2s,color 0.2s;
+}
+.btn-full{
+	background-color:transparent;
+	color:#bf55ec;
+	margin-right:15px;
+	border-bottom:2px solid grey;
+}
+.btn-full:hover{
+	background-color:white;
+}
+.btn-more{
+	background-color:transparent;
+	color:white;
+	border-bottom:2px solid grey;
+}
+.btn-more:hover{
+	background-color:purple;
+}
+.bbm{
+	animation: colorbbm 1s infinite;
+}
+@keyframes colorbbm{
+	0%{color:red;}
+	25%{color:yellow;}
+	50%{color:grey;}
+	100%{color:pink}
+}
